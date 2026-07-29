@@ -41,7 +41,7 @@ Docker is the foundation — it runs containers and the LocalStack cloud simulat
 
 ```
 $ docker --version
-Docker version 27.1.1, build 6312585
+Docker version 28.5.2, build 6312585
 
 $ docker run --rm hello-world
 Hello from Docker!
@@ -62,7 +62,7 @@ The AWS CLI sends commands to LocalStack (our local AWS emulator). No real AWS a
 
 ```
 $ aws --version
-aws-cli/2.17.18 Python/3.12.6 Windows/10 exe/AMD64
+aws-cli/2.36.9 Python/3.14.6 Windows/10 exe/AMD64
 ```
 
 ![AWS CLI v2 Installation](images/install-aws-cli-v2.png)
@@ -87,8 +87,8 @@ $ kind --version
 kind v0.23.0 go1.22.5 windows/amd64
 
 $ kubectl version --client
-Client Version: v1.30.3
-Kustomize Version: v5.0.4-0.20230601165947-4ce0d4c5b0cf
+Client Version: v1.33.4
+Kustomize Version: v5.5.0.20230601165947-4ce0d4c5b0cf
 ```
 
 ![kind & kubectl Installation](images/install-kind-kubectl.png)
@@ -109,7 +109,7 @@ These tools are used in later labs for encryption (Lab 3), MFA codes (Lab 4), an
 
 ```
 $ openssl version
-OpenSSL 3.2.1 30 Jan 2024 (Library: OpenSSL 3.2.1 30 Jan 2024)
+OpenSSL 3.6.1 27 Jan 2026 (Library: OpenSSL 3.6.1 27 Jan 2026)
 ```
 
 ![Helper Tools](images/helper-tools.png)
@@ -134,7 +134,7 @@ The first run pulls the image (~600 MB); subsequent starts are instant.
 
 ```
 $ curl http://localhost:4566/_localstack/health
-{"services": {...}, "version": "3.5.0"}
+{"services": {...}, "version": "4.4.0"}
 ```
 
 ![LocalStack Health Check](images/localstack-health.png)
@@ -276,12 +276,12 @@ docker system prune -f
 
 | Component | Status | Version |
 |-----------|--------|---------|
-| Docker | ✅ | v27.1.1 |
-| AWS CLI v2 | ✅ | v2.17.18 |
+| Docker | ✅ | v28.5.2 |
+| AWS CLI v2 | ✅ | v2.36.9 |
 | kind | ✅ | v0.23.0 |
-| kubectl | ✅ | v1.30.3 |
-| OpenSSL | ✅ | v3.2.1 |
-| LocalStack | ✅ | v3.5.0 |
+| kubectl | ✅ | v1.33.4 |
+| OpenSSL | ✅ | v3.6.1 |
+| LocalStack | ✅ | v4.4.0 |
 | AWS CLI → LocalStack | ✅ | Connected |
 | kind cluster (ccse) | ✅ | Kubernetes v1.30.0 |
 

@@ -286,3 +286,7 @@ docker system prune -f
 | kind cluster (ccse) | ✅ | Kubernetes v1.30.0 |
 
 All components are installed and verified. The environment is ready for Labs 1 through 5.
+
+## Lab0.1
+
+![Lab0.1](images/Lab0.1.png)

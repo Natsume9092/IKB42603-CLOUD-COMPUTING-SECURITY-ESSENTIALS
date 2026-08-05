@@ -1,11 +1,12 @@
 # LAB 1 — Cloud Account Security, Identity & Access Management (IAM)
 
-**Course** : IKB42603 Cloud Computing Security Essentials
-**Institution** : Universiti Kuala Lumpur Malaysian Institute of Information Technology (UniKL MIIT)
-**Student Name** : Muhammad Akmal Hakim Bin Mohd Yuzlan
-**Student ID** : 52215125582
-**Lab Sessions** : Session A (Week 1) — LocalStack IAM &nbsp;·&nbsp; Session B (Week 2) — Kubernetes RBAC
-**Tools Used** : Docker Desktop, LocalStack, AWS CLI v2, kind, kubectl
+| | |
+|---|---|
+| **Course** | IKB42603 Cloud Computing Security Essentials |
+| **Institution** | Universiti Kuala Lumpur Malaysian Institute of Information Technology (UniKL MIIT) |
+| **Lab** | Session A (Week 1) — LocalStack IAM · Session B (Week 2) — Kubernetes RBAC |
+| **Name** | MUHAMMAD AKMAL HAKIM BIN MOHD YUZLAN (52215125582) |
+| **Tools Used** | Docker Desktop, LocalStack, AWS CLI v2, kind, kubectl |
 
 ---
 
